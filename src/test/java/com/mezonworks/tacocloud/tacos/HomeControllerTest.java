@@ -1,4 +1,4 @@
-package com.mezonworks.tacocloud;
+package com.mezonworks.tacocloud.tacos;
 
 import static org.hamcrest.Matchers.containsString;
 import static
@@ -10,6 +10,7 @@ import static
 import static
         org.springframework.test.web.servlet.result.MockMvcResultMatchers.view;
 
+import com.mezonworks.tacocloud.tacos.HomeController;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
